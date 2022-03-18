@@ -1,5 +1,5 @@
 {
-  "name": "@makerdao/dai-plugin-scd",
+  "name": "@yodaplus/dai-plugin-scd",
   "description": "Plugin to add Single-Collateral Dai support to dai.js",
   "version": "1.4.3",
   "license": "MIT",
@@ -20,11 +20,11 @@
     "test:integration": "export NETWORK='test' && yarn test --config ./test/config/jestIntegrationConfig.json"
   },
   "peerDependencies": {
-    "@makerdao/dai": "^0.42.2"
+    "@yodaplus/dai": "^0.42.2"
   },
   "dependencies": {
     "@makerdao/currency": "^0.9.10",
-    "@makerdao/services-core": "^0.11.4",
+    "@yodaplus/services-core": "^0.11.4",
     "assert": "^2.0.0",
     "bignumber.js": "^8.1.1",
     "chokidar": "^2.0.4",
