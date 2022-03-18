@@ -1,7 +1,7 @@
 {
   "name": "@yodaplus/dai-plugin-scd",
   "description": "Plugin to add Single-Collateral Dai support to dai.js",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "license": "MIT",
   "main": "dist/index.js",
   "unpkg": "dist/index.js",

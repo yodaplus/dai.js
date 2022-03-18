@@ -1,7 +1,7 @@
 {
   "name": "@yodaplus/dai-plugin-mcd",
   "description": "Plugin to add Multi-Collateral Dai support to dai.js",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "license": "MIT",
   "main": "dist/index.js",
   "unpkg": "dist/index.js",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@makerdao/currency": "^0.9.10",
-    "@yodaplus/dai": "^0.42.5",
+    "@yodaplus/dai": "^0.42.6",
     "@yodaplus/services-core": "^0.11.4",
     "bignumber.js": "^8.1.1",
     "rxjs": "^6.5.4"
