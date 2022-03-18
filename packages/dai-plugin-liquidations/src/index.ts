@@ -7,6 +7,7 @@ type ContractAddresses = {
   kovan: { [key: string]: string };
   goerli: { [key: string]: string };
   testnet?: { [key: string]: string };
+  apothem: { [key: string]: string };
 };
 
 export default {
@@ -14,7 +15,8 @@ export default {
     const contractAddresses: ContractAddresses = {
       mainnet: require('../contracts/addresses/mainnet.json'),
       kovan: require('../contracts/addresses/kovan.json'),
-      goerli: require('../contracts/addresses/goerli.json')
+      goerli: require('../contracts/addresses/goerli.json'),
+      apothem: require('../contracts/addresses/apothem.json')
     };
 
     try {

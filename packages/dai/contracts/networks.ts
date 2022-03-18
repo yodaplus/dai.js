@@ -3,6 +3,7 @@ import contracts from './contracts';
 import abis from './abis';
 import kovanAddresses from './addresses/kovan.json';
 import goerliAddresses from './addresses/goerli.json';
+import apothemAddresses from './addresses/apothem.json';
 import mainnetAddresses from './addresses/mainnet.json';
 import testnetAddresses from './addresses/testnet.json';
 
@@ -11,6 +12,7 @@ const addressMapping = {
   kovan: kovanAddresses,
   goerli: goerliAddresses,
   goerlifork: goerliAddresses,
+  apothem: apothemAddresses,
   testnet: testnetAddresses
 };
 
@@ -144,6 +146,7 @@ export default [
   { name: 'rinkeby', networkId: 4 },
   { name: 'goerli', networkId: 5, contracts: contractInfo('goerli') },
   { name: 'kovan', networkId: 42, contracts: contractInfo('kovan') },
+  { name: 'apothem', networkId: 51, contracts: contractInfo('apothem') },
   { name: 'test', networkId: 1337, contracts: contractInfo('testnet') },
   {
     name: 'goerlifork',

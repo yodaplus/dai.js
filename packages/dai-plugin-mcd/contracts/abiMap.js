@@ -10,6 +10,7 @@ export default {
   SAI: require('./abis/DSToken.json'),
   CDP_MANAGER: require('./abis/DssCdpManager.json'),
   ETH: require('./abis/WETH9_.json'),
+  XDC: require('./abis/WETH9_.json'),
   GET_CDPS: require('./abis/GetCdps.json'),
   MCD_ADM: require('./abis/DSRoles.json'),
   MCD_CAT: require('./abis/Cat.json'),

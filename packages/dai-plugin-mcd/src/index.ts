@@ -3,9 +3,7 @@ import mapValues from 'lodash/mapValues';
 import reduce from 'lodash/reduce';
 import uniqBy from 'lodash/uniqBy';
 import testnetAddresses from '../contracts/addresses/testnet.json';
-// import kovanAddresses from '../contracts/addresses/kovan.json';
-import goerliAddresses from '../contracts/addresses/goerli.json';
-import mainnetAddresses from '../contracts/addresses/mainnet.json';
+import apothemAddresses from '../contracts/addresses/apothem.json';
 import abiMap from '../contracts/abiMap';
 import CdpManager from './CdpManager';
 import SavingsService from './SavingsService';
@@ -40,11 +38,7 @@ let addContracts = reduce(
         abi,
         address: {
           testnet: testnetAddress,
-          goerlifork: goerliAddresses[name],
-          // kovan no longer actively supported
-          // kovan: kovanAddresses[name],
-          goerli: goerliAddresses[name],
-          mainnet: mainnetAddresses[name]
+          apothem: apothemAddresses[name]
         }
       };
     }
