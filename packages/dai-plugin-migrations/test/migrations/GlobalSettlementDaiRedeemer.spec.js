@@ -1,8 +1,8 @@
 import { migrationMaker, setupCollateral } from '../helpers';
 import { mockContracts, globalSettlement } from '../helpers/mocks';
-import { takeSnapshot, restoreSnapshot } from '@makerdao/test-helpers';
+import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 import { ServiceRoles, Migrations } from '../../src/constants';
-import { DAI, ETH } from '@makerdao/dai-plugin-mcd';
+import { DAI, ETH } from '@yodaplus/dai-plugin-mcd';
 
 jest.setTimeout(30000);
 

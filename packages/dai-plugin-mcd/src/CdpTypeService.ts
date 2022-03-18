@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import CdpType from './CdpType';
 import { ServiceRoles } from './constants';
 import assert from 'assert';

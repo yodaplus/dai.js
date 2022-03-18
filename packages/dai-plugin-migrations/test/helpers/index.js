@@ -1,4 +1,4 @@
-import Maker from '@makerdao/dai';
+import Maker from '@yodaplus/dai';
 import MigrationPlugin from '../../src';
 import { Migrations } from '../../src/constants';
 import { createCurrencyRatio } from '@makerdao/currency';
@@ -7,8 +7,8 @@ import McdPlugin, {
   ETH,
   GNT,
   USD
-} from '@makerdao/dai-plugin-mcd';
-import ScdPlugin from '@makerdao/dai-plugin-scd';
+} from '@yodaplus/dai-plugin-mcd';
+import ScdPlugin from '@yodaplus/dai-plugin-scd';
 import ethAbi from 'web3-eth-abi';
 import { utils } from 'ethers';
 

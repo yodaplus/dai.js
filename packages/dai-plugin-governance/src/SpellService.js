@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import { PAUSE } from './utils/constants';
 import DsSpellAbi from '../contracts/abis/DSSpell.json';
 import padStart from 'lodash/padStart';

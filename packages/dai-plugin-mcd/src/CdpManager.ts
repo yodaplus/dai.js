@@ -1,5 +1,5 @@
 import { Currency } from '@makerdao/currency';
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 import tracksTransactions, {
   tracksTransactionsWithOptions
 } from './utils/tracksTransactions';

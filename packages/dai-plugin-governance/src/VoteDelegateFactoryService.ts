@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 import { VOTE_DELEGATE_FACTORY } from './utils/constants';
 import tracksTransactions from './utils/tracksTransactions';
 

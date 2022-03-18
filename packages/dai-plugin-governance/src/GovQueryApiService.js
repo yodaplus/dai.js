@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import assert from 'assert';
 import {
   netIdtoSpockUrl,

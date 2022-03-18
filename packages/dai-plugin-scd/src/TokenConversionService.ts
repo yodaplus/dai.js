@@ -1,4 +1,4 @@
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import contracts from '../contracts/contracts';
 import { PETH, WETH } from './Currency';
 import tracksTransactions from './utils/tracksTransactions';

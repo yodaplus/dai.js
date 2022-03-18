@@ -1,7 +1,7 @@
 // TODO: Rewrite this service to make it more simple
 // @ts-nocheck
 /* eslint-disable */
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import { createWatcher } from '@makerdao/multicall';
 import debug from 'debug';
 import { Observable, ReplaySubject, combineLatest, from, throwError, timer } from 'rxjs';

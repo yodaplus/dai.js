@@ -1,5 +1,5 @@
 import tracksTransactions from '../utils/tracksTransactions';
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import abis from '../../contracts/abis';
 import { Contract } from 'ethers';
 

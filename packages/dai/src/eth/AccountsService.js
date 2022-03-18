@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 
 import { map, omit, pick } from 'lodash/fp';
 import invariant from 'invariant';

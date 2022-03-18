@@ -3,7 +3,7 @@ import {
   takeSnapshot,
   restoreSnapshot,
   TestAccountProvider
-} from '@makerdao/test-helpers';
+} from '@yodaplus/test-helpers';
 import { isValidAddressString } from '../../src/utils';
 
 import schemas, { PROXY_ADDRESS } from '../../src/schemas';

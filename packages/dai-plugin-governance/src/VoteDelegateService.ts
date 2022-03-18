@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 import VoteDelegate from './VoteDelegate';
 import { MKR, VOTE_DELEGATE_FACTORY, ZERO_ADDRESS } from './utils/constants';
 import { fromBuffer, getCurrency } from './utils/helpers';

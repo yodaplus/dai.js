@@ -1,5 +1,5 @@
-import Maker from '@makerdao/dai';
-import McdPlugin from '@makerdao/dai-plugin-mcd';
+import Maker from '@yodaplus/dai';
+import McdPlugin from '@yodaplus/dai-plugin-mcd';
 import MigrationPlugin from '../../src';
 import { ServiceRoles, Migrations } from '../../src/constants';
 

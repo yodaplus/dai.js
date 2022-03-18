@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 // maybe a "dai.js developer utils" package is useful?
 import { MKR, CHIEF } from './utils/constants';
 import { getCurrency, netIdToName } from './utils/helpers';

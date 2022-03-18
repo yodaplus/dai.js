@@ -1,4 +1,4 @@
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import { slug } from '../index';
 import EventEmitter from './EventEmitter';
 import debug from 'debug';

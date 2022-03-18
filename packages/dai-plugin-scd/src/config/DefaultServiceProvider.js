@@ -1,4 +1,4 @@
-import { ServiceProvider } from '@makerdao/services-core';
+import { ServiceProvider } from '@yodaplus/services-core';
 import EthereumCdpService from '../EthereumCdpService';
 import PriceService from '../PriceService';
 import TokenConversionService from '../TokenConversionService';

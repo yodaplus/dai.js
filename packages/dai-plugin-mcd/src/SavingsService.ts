@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import { ServiceRoles } from './constants';
 import { DAI } from './tokens';
 import BigNumber from 'bignumber.js';

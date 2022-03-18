@@ -1,6 +1,6 @@
 // TODO Remove ignore
 // @ts-nocheck
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import BigNumber from 'bignumber.js';
 import { POLLING, BATCH_POLLING } from './utils/constants';
 import { MKR } from './utils/constants';

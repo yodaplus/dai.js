@@ -1,6 +1,6 @@
 import { buildTestEthereumTokenService } from '../helpers/serviceBuilders';
 import TestAccountProvider from '@makerdao/test-helpers/src/TestAccountProvider';
-import { mineBlocks } from '@makerdao/test-helpers';
+import { mineBlocks } from '@yodaplus/test-helpers';
 import TransactionState from '../../src/eth/TransactionState';
 import { ETH, MKR, WETH } from '../../src/eth/Currency';
 

@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 
 const _ = () => {};
 

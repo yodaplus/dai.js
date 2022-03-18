@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 
 export default class TimerService extends LocalService {
   constructor(name = 'timer') {

@@ -1,5 +1,5 @@
 import Web3ServiceList from '../src/utils/Web3ServiceList';
-import { takeSnapshot, restoreSnapshot } from '@makerdao/test-helpers';
+import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 import fetch from 'jest-fetch-mock';
 
 beforeEach(() => {

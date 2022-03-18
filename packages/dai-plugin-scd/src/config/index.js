@@ -1,5 +1,5 @@
 import merge from 'lodash/merge';
-import { standardizeConfig } from '@makerdao/services-core';
+import { standardizeConfig } from '@yodaplus/services-core';
 
 export function mergeServiceConfig(role, sink, source, resolver) {
   sink = standardizeConfig(role, sink, resolver);

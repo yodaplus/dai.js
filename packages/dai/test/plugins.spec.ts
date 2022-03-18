@@ -1,6 +1,6 @@
 import Maker from '../src';
 import ConfigFactory from '../src/config/ConfigFactory';
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 import { MakerClass } from '../src/Maker';
 
 let mockedCreateConfig: jest.SpyInstance = null;

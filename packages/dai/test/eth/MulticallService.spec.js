@@ -1,7 +1,7 @@
 import TestAccountProvider from '@makerdao/test-helpers/src/TestAccountProvider';
 import Maker from '../../src/index';
 import BigNumber from 'bignumber.js';
-import ScdPlugin from '@makerdao/dai-plugin-scd';
+import ScdPlugin from '@yodaplus/dai-plugin-scd';
 
 import schemas, {
   TOTAL_CDP_DEBT,

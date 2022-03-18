@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 
 export default class CacheService extends LocalService {
   constructor(name = 'cache') {

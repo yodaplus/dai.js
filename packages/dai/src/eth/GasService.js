@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import { map } from 'lodash';
 import fetch from 'isomorphic-fetch';
 

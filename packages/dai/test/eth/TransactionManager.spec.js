@@ -5,11 +5,11 @@ import {
 } from '../helpers/serviceBuilders';
 import { uniqueId } from '../../src/utils';
 import { size } from 'lodash';
-import { mineBlocks } from '@makerdao/test-helpers';
+import { mineBlocks } from '@yodaplus/test-helpers';
 import debug from 'debug';
 const log = debug('sai:testing:TxMgr.spec');
 import Maker from '../../src';
-import ScdPlugin from '@makerdao/dai-plugin-scd';
+import ScdPlugin from '@yodaplus/dai-plugin-scd';
 
 async function scdMaker({
   preset = 'test',

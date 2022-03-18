@@ -30,15 +30,15 @@ npm install @makerdao/dai
 Then include it:
 
 ```js
-import Maker from '@makerdao/dai';
+import Maker from '@yodaplus/dai';
 // or:
-const Maker = require('@makerdao/dai');
+const Maker = require('@yodaplus/dai');
 ```
 
 Example for transferring Dai:
 
 ```js
-import Maker from '@makerdao/dai';
+import Maker from '@yodaplus/dai';
 const maker = Maker.create('test');
 await maker.authenticate();
 
@@ -52,7 +52,7 @@ transferDai(address, amount) {
 Example for using CDPs:
 
 ```js
-import Maker from '@makerdao/dai';
+import Maker from '@yodaplus/dai';
 const maker = Maker.create('test');
 await maker.authenticate();
 const cdp = await maker.openCdp();

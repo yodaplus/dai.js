@@ -1,6 +1,6 @@
 import { USD_SAI } from '../src/Currency';
 import Cdp from '../src/Cdp';
-import { mineBlocks } from '@makerdao/test-helpers';
+import { mineBlocks } from '@yodaplus/test-helpers';
 import { scdMaker } from './helpers/maker';
 import { ServiceRoles } from '../src/utils/constants';
 

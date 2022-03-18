@@ -1,4 +1,4 @@
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import contracts from '../../contracts/contracts';
 import tokens from '../../contracts/tokens';
 import networks, { contractAddressesInfo } from '../../contracts/networks';

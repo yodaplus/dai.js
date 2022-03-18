@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 import VoteProxy from './VoteProxy';
 import { MKR, VOTE_PROXY_FACTORY, ZERO_ADDRESS } from './utils/constants';
 // maybe a "dai.js developer utils" package is useful?

@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import TransactionObject from './TransactionObject';
 import { uniqueId } from '../utils';
 import { each, has } from 'lodash';

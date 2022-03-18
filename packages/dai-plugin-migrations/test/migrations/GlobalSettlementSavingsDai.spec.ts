@@ -1,8 +1,8 @@
 import { migrationMaker, setupCollateral } from '../helpers';
 import { mockContracts, globalSettlement } from '../helpers/mocks';
-import { takeSnapshot, restoreSnapshot } from '@makerdao/test-helpers';
+import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 import { ServiceRoles, Migrations } from '../../src/constants';
-import { ETH, DAI } from '@makerdao/dai-plugin-mcd';
+import { ETH, DAI } from '@yodaplus/dai-plugin-mcd';
 
 let maker, migration, cdpManager, smartContract, snapshot;
 

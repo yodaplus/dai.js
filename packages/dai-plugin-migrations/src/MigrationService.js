@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import { ServiceRoles, Migrations } from './constants';
 import SingleToMultiCdp from './migrations/SingleToMultiCdp';
 import GlobalSettlementSavingsDai from './migrations/GlobalSettlementSavingsDai';

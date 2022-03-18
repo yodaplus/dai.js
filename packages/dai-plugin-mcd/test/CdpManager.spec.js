@@ -3,7 +3,7 @@ import { mcdMaker, setupCollateral } from './helpers';
 import { setMethod, transferToBag } from '../src/CdpManager';
 import { ServiceRoles } from '../src/constants';
 import { ETH, DAI, GNT, DGD, BAT } from '../src';
-import { takeSnapshot, restoreSnapshot } from '@makerdao/test-helpers';
+import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 import TestAccountProvider from '@makerdao/test-helpers/src/TestAccountProvider';
 
 let maker, cdpMgr, txMgr, snapshotData;

@@ -1,6 +1,6 @@
 import { migrationMaker, shutDown } from '../helpers';
 import { ServiceRoles, Migrations } from '../../src/constants';
-import { takeSnapshot, restoreSnapshot } from '@makerdao/test-helpers';
+import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 
 let maker, migration, snapshotData;
 jest.setTimeout(30000);

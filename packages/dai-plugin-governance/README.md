@@ -27,8 +27,8 @@ $ yarn add @makerdao/dai-plugin-governance
 We will have several examples once the api is more stable. Here is one to give you some sense of how this plugin can be used:
 
 ```js
-import governancePlugin from '@makerdao/dai-plugin-governance';
-import Maker from '@makerdao/dai';
+import governancePlugin from '@yodaplus/dai-plugin-governance';
+import Maker from '@yodaplus/dai';
 
 (async () => {
   const maker = Maker.create('browser', {

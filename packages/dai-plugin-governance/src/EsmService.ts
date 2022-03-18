@@ -1,4 +1,4 @@
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import { MKR, ESM, END } from './utils/constants';
 import { getCurrency } from './utils/helpers';
 import { tracksTransactionsWithOptions } from './utils/tracksTransactions';

@@ -4,8 +4,8 @@
 import repl from 'repl';
 import Maker from '../src';
 import testAccounts from '../../test-helpers/src/testAccounts.json';
-import ScdPlugin from '@makerdao/dai-plugin-scd';
-import GovPlugin from '@makerdao/dai-plugin-governance';
+import ScdPlugin from '@yodaplus/dai-plugin-scd';
+import GovPlugin from '@yodaplus/dai-plugin-governance';
 import matter from 'gray-matter';
 
 let maker;

@@ -1,4 +1,4 @@
-import { DAI } from '@makerdao/dai-plugin-mcd';
+import { DAI } from '@yodaplus/dai-plugin-mcd';
 import { mineBlocks } from '../../test-helpers/src';
 import BigNumber from 'bignumber.js';
 import { stringToBytes } from '../src/LiquidationService';

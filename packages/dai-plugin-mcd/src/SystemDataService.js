@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import { RAD, RAY, ServiceRoles, SECONDS_PER_YEAR } from './constants';
 import BigNumber from 'bignumber.js';
 import { DAI } from './tokens';

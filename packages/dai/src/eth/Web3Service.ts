@@ -1,4 +1,4 @@
-import { PrivateService } from '@makerdao/services-core';
+import { PrivateService } from '@yodaplus/services-core';
 import { promisify, getNetworkName } from '../utils';
 import Web3ServiceList from '../utils/Web3ServiceList';
 import Web3 from 'web3';

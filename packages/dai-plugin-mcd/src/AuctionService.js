@@ -1,4 +1,4 @@
-import { PublicService } from '@makerdao/services-core';
+import { PublicService } from '@yodaplus/services-core';
 import Auction from './Auction';
 import { ServiceRoles } from './constants';
 

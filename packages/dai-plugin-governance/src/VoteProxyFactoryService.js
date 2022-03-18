@@ -1,4 +1,4 @@
-import { LocalService } from '@makerdao/services-core';
+import { LocalService } from '@yodaplus/services-core';
 import { VOTE_PROXY_FACTORY } from './utils/constants';
 import ApproveLinkTransaction from './ApproveLinkTransaction';
 

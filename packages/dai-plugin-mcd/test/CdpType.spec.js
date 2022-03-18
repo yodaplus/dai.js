@@ -2,7 +2,7 @@ import { createCurrencyRatio } from '@makerdao/currency';
 import { mcdMaker, setupCollateral } from './helpers';
 import { ServiceRoles } from '../src/constants';
 import { ETH, DAI, USD, BAT } from '../src';
-import { takeSnapshot, restoreSnapshot } from '@makerdao/test-helpers';
+import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 const { CDP_MANAGER, CDP_TYPE } = ServiceRoles;
 
 let maker, service, snapshotData;
