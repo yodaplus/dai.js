@@ -57,7 +57,7 @@ type CDP_TYPE = {
   abi?: any;
 };
 export const defaultCdpTypes: CDP_TYPE[] = [
-  { currency: ETH, ilk: 'ETH-C' },
+  { currency: ETH, ilk: 'ETH-A' },
   { currency: XDC, ilk: 'XDC-A' }
 ];
 
