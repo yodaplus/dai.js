@@ -1,7 +1,7 @@
 {
   "name": "@yodaplus/dai-plugin-liquidations",
   "description": "Plugin to add liquidations to dai.js",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "license": "MIT",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
