@@ -8,6 +8,7 @@ type ContractAddresses = {
   goerli: { [key: string]: string };
   testnet?: { [key: string]: string };
   apothem: { [key: string]: string };
+  'xinfin-mainnet': { [key: string]: string };
 };
 
 export default {
@@ -16,7 +17,8 @@ export default {
       mainnet: require('../contracts/addresses/mainnet.json'),
       kovan: require('../contracts/addresses/kovan.json'),
       goerli: require('../contracts/addresses/goerli.json'),
-      apothem: require('../contracts/addresses/apothem.json')
+      apothem: require('../contracts/addresses/apothem.json'),
+      'xinfin-mainnet': require('../contracts/addresses/xinfin-mainnet.json')
     };
 
     try {

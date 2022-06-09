@@ -4,6 +4,7 @@ import reduce from 'lodash/reduce';
 import uniqBy from 'lodash/uniqBy';
 import testnetAddresses from '../contracts/addresses/testnet.json';
 import apothemAddresses from '../contracts/addresses/apothem.json';
+import xinfinMainnetAddresses from '../contracts/addresses/xinfin-mainnet.json';
 import abiMap from '../contracts/abiMap';
 import CdpManager from './CdpManager';
 import SavingsService from './SavingsService';
@@ -38,7 +39,8 @@ let addContracts = reduce(
         abi,
         address: {
           testnet: testnetAddress,
-          apothem: apothemAddresses[name]
+          apothem: apothemAddresses[name],
+          'xinfin-mainnet': xinfinMainnetAddresses[name]
         }
       };
     }

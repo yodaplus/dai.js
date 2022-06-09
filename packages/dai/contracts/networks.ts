@@ -4,6 +4,7 @@ import abis from './abis';
 import kovanAddresses from './addresses/kovan.json';
 import goerliAddresses from './addresses/goerli.json';
 import apothemAddresses from './addresses/apothem.json';
+import xinfinMainnetAddresses from './addresses/xinfin-mainnet.json';
 import mainnetAddresses from './addresses/mainnet.json';
 import testnetAddresses from './addresses/testnet.json';
 
@@ -13,6 +14,7 @@ const addressMapping = {
   goerli: goerliAddresses,
   goerlifork: goerliAddresses,
   apothem: apothemAddresses,
+  xinfinMainnet: xinfinMainnetAddresses,
   testnet: testnetAddresses
 };
 
@@ -147,6 +149,11 @@ export default [
   { name: 'goerli', networkId: 5, contracts: contractInfo('goerli') },
   { name: 'kovan', networkId: 42, contracts: contractInfo('kovan') },
   { name: 'apothem', networkId: 51, contracts: contractInfo('apothem') },
+  {
+    name: 'xinfin-mainnet',
+    networkId: 50,
+    contracts: contractInfo('xinfinMainnet')
+  },
   { name: 'test', networkId: 1337, contracts: contractInfo('testnet') },
   {
     name: 'goerlifork',
