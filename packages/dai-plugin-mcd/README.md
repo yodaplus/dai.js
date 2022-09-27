@@ -6,8 +6,8 @@ multi-collateral dai contracts
 ### Example usage
 
 ```js
-import { McdPlugin, ETH, REP, DAI } from '@yodaplus/dai-plugin-mcd';
 import Maker from '@yodaplus/dai';
+import { McdPlugin, ETH, REP, DAI } from '@usxd/dai-plugin-mcd';
 import { createCurrency } from '@makerdao/currency';
 import { tokenAddress, tokenAbi } from 'someOtherTokenData';
 

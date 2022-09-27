@@ -1,6 +1,6 @@
 import { takeSnapshot, restoreSnapshot } from '@yodaplus/test-helpers';
 import Maker from '@yodaplus/dai';
-import { McdPlugin, YFI } from '@yodaplus/dai-plugin-mcd';
+import { McdPlugin, YFI } from '@usxd/dai-plugin-mcd';
 import BigNumber from 'bignumber.js';
 import liquidationPlugin from '../src';
 import LiquidationService, {
