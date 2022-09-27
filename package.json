@@ -1,7 +1,7 @@
 {
-  "name": "dai-monorepo",
+  "name": "usxd-monorepo",
   "version": "0.1.0",
-  "repository": "git@github.com:makerdao/dai.js.git",
+  "repository": "git@github.com:yodaplus/dai.js.git",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -30,7 +30,8 @@
     ]
   },
   "workspaces": [
-    "packages/*"
+    "packages/dai-plugin-liquidations",
+    "packages/dai-plugin-mcd"
   ],
   "dependencies": {
     "lerna": "^4.0.0"
