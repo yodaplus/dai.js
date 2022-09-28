@@ -45,6 +45,8 @@
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.1",
     "@typescript-eslint/parser": "^4.31.2",
+    "@yodaplus/dai": "^0.42.7",
+    "@yodaplus/services-core": "^0.11.4",    
     "chokidar": "^2.0.4",
     "copyfiles": "^2.0.0",
     "eslint": "^5.15.1",
